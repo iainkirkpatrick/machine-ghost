@@ -1,0 +1,22 @@
+{
+  "name": "machine-ghost",
+  "version": "0.0.0",
+  "description": "BOO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iainkirkpatrick/machine-ghost.git"
+  },
+  "author": "iainkirkpatrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iainkirkpatrick/machine-ghost/issues"
+  },
+  "homepage": "https://github.com/iainkirkpatrick/machine-ghost",
+  "dependencies": {
+    "robotjs": "^0.2.4"
+  }
+}
