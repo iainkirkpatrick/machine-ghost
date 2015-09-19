@@ -4,7 +4,12 @@
   "description": "BOO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "budo index.js:bundle.js --live --verbose --debug | garnish"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   },
   "repository": {
     "type": "git",
@@ -18,5 +23,11 @@
   "homepage": "https://github.com/iainkirkpatrick/machine-ghost",
   "dependencies": {
     "robotjs": "^0.2.4"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^10.2.6",
+    "budo": "^4.1.0",
+    "watchify": "^3.2.3"
   }
 }
