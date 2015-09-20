@@ -4,7 +4,7 @@
   "description": "BOO",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js:bundle.js --live --verbose --debug | garnish"
+    "start": "budo index.js:bundle.js --live --verbose --debug"
   },
   "browserify": {
     "transform": [
@@ -22,6 +22,11 @@
   },
   "homepage": "https://github.com/iainkirkpatrick/machine-ghost",
   "dependencies": {
+    "express": "*",
+    "ramda": "^0.17.1",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "rx": "^2.5.3",
     "robotjs": "^0.2.4"
   },
   "devDependencies": {
